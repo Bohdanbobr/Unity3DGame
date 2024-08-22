@@ -13,5 +13,4 @@ public class Damage : MonoBehaviour
             other.GetComponent<EnemyScript>().TakeDamage (damage);
         }
     }
-
 }

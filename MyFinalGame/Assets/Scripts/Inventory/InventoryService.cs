@@ -10,8 +10,6 @@ public interface IInventoryService
 
 public class InventoryService : IInventoryService
 {
-    
-
     public InventorySlot[] Slots { get; }
     private const int InventorySize = 10;
     
@@ -37,9 +35,6 @@ public class InventoryService : IInventoryService
                 break;
             }
             Debug.Log("wwwTrying to add item: " + inventoryItem.ItemData.Name + Slots[i] + Slots[i].Item);
-        }
-        
+        }  
     }
-
-
 }

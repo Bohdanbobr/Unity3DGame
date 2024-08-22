@@ -9,6 +9,4 @@ using UnityEngine;
 public class ItemsConfig : ScriptableObject
 {
     public ItemData[] items;
-
 }
-

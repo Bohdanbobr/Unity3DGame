@@ -9,8 +9,6 @@ public class InventorySlotView : MonoBehaviour
         Slot = slot;
         Slot.OnSlotCganged += DisplaySlot;
         DisplaySlot();
-
-
     }
     private void OnDestroy()
     {
@@ -23,4 +21,3 @@ public class InventorySlotView : MonoBehaviour
             itemView.SetItem(Slot, this);
     }
 }
-

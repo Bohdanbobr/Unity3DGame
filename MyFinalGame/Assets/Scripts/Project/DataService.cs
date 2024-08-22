@@ -11,8 +11,6 @@ namespace Project
     {
         public ItemData[] Items { get; }
 
-
-
         public DataService(ItemsConfig itemsConfig)
         {
             Items = itemsConfig.items;

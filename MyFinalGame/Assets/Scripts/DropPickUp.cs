@@ -11,9 +11,6 @@ public class DropPickUp : MonoBehaviour
     bool canPickUp = false;
     ItemData [] Items = ProjectContext.Instance.DataService.Items;
     
-
-
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) PickUp();
@@ -45,7 +42,6 @@ public class DropPickUp : MonoBehaviour
                 Debug.LogError("Sword item is null");
             }
             canPickUp = true;
-
         }
     }
 

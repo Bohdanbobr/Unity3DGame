@@ -27,4 +27,3 @@ public class DropZone : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         draggable.SetNextDropZone(null);
     }
 }
-

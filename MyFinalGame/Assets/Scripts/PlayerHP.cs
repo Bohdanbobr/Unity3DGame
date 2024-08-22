@@ -24,7 +24,6 @@ public class PlayerHP : MonoBehaviour
         }
     }
 
-
     public IEnumerator Damage(int damageAmount)
     {
 

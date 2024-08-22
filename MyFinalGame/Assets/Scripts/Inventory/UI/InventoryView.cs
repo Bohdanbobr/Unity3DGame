@@ -15,6 +15,5 @@ public class InventoryView : MonoBehaviour
             view.name = $"{index++}";
             view.SetSlot(slot);
         }
-
     }
 }
