@@ -1,0 +1,4 @@
+repository "MyFinalGame@unity_22bobo2004@cloud"
+  path "/"
+    br "/main"
+    co "/main"
