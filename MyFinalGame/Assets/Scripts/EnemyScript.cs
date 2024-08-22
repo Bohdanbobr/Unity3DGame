@@ -9,7 +9,6 @@ public class EnemyScript : MonoBehaviour
     public Animator animator;
     public Slider HPBar;
 
-
     void Update()
     {
         HPBar.value = HP;

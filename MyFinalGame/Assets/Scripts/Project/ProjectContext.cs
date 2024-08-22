@@ -17,9 +17,7 @@ namespace Project
         public IDataService DataService { get; private set; }
         public IInventoryService InventoryService { get; private set; }
 
-        private ProjectContext()
-        {
-        }
+        private ProjectContext() { }
 
         public void Init(ItemsConfig itemsConfig)
         {

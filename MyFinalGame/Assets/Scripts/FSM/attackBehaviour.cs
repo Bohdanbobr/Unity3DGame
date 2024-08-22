@@ -21,9 +21,4 @@ public class AttackBehaviour : StateMachineBehaviour
         if (distance > 15)
             animator.SetBool("isChasing", false);
     }
-
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-
-    }
 }

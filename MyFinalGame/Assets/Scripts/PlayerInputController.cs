@@ -18,7 +18,6 @@ public class PlayerInputController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         input = new InputGame();
         input.Enable();
-
     }
 
     private void Update()

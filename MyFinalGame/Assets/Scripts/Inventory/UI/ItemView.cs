@@ -34,7 +34,5 @@ public class ItemView : MonoBehaviour
         var itemData = inventorySlot.Item.ItemData;
         icon.sprite = itemData.Icon;
         Name.text = itemData.Name;
-
     }
-
 }

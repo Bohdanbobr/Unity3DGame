@@ -12,5 +12,4 @@ public class ItemData
     [field: SerializeField] public int Armor { get; private set; }
     [field: SerializeField] public int MaxCountInSlot { get; private set; }
     [field: SerializeField] public InventorySlotType SlotType { get; private set; }
-
 }

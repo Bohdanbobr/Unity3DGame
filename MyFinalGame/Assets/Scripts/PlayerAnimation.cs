@@ -13,5 +13,4 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetFloat("MoveY", direction.y);
         animator.SetBool("IsMoving", direction.magnitude > 0);
     }
-
 }
