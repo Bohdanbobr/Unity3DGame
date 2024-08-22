@@ -9,7 +9,7 @@ public class EnemyScript : MonoBehaviour
     public Animator animator;
     public Slider HPBar;
 
-    // Update is called once per frame
+
     void Update()
     {
         HPBar.value = HP;

@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UnityEngine;
 
-public interface IDataService
+namespace Project
 {
+    public interface IDataService
+    {
+        ItemData[] Items { get; }
+    }
 
+    public class DataService : IDataService
+    {
+        public ItemData[] Items { get; }
+
+
+
+        public DataService(ItemsConfig itemsConfig)
+        {
+            Items = itemsConfig.items;
+        }
+    }
 }
-public class DataService : IDataService
-{
-
-
-}
-

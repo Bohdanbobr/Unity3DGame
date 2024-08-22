@@ -1,18 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemData : MonoBehaviour
+[Serializable]
+public class ItemData
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [field: SerializeField] public string Name { get; private set; }
+    [field: SerializeField] public Sprite Icon { get; private set; }
+    [field: SerializeField] public int Damege { get; private set; }
+    [field: SerializeField] public int Armor { get; private set; }
+    [field: SerializeField] public int MaxCountInSlot { get; private set; }
+    [field: SerializeField] public InventorySlotType SlotType { get; private set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
